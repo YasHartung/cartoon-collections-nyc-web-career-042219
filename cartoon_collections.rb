@@ -9,7 +9,12 @@ def summon_captain_planet (names)
     name.capitalize + "!"}
 end
 
-def long_planeteer_calls# code an argument here
+def long_planeteer_calls (words)
+  words.each{ |word|
+  if word.length > 4
+      return true
+  end}
+    return false
   # Your code here
 end
 
