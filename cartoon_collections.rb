@@ -15,7 +15,6 @@ def long_planeteer_calls (words)
       return true
   end}
     return false
-  # Your code here
 end
 
 def find_the_cheese# code an argument here
